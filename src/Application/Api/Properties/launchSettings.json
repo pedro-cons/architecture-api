@@ -1,0 +1,50 @@
+{
+  "profiles": {
+    "DEBUG": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "debug"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8082"
+    },
+    "DEV": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8082"
+    },
+    "HOM": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "staging"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8082"
+    },
+    "TST": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "test"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8082"
+    },
+    "PRD": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "production"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8082"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
